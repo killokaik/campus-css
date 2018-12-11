@@ -1,0 +1,228 @@
+
+body{
+    background-color: #8B8989; 
+}
+.container {
+    width: 112ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 0;
+}
+header{
+    width: 112ch;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 0;
+    background-color: 
+}
+.top{
+    text-align: center;
+    color: #333;
+    padding: 0rem;
+    border-bottom: .5rem solid #000;
+   
+}
+
+.citacao1 {
+    background-color: #D9E5E3;
+    border: .3em solid #C2CCCA;
+    padding: 1em;
+    margin: 1em 2em;
+    width: 35ch;
+    position:relative;
+    left: 90px;
+    box-sizing: border-box;
+    transition: box-shadow 1s, transform 1s;
+    transition-delay: 1s, 0s;
+}
+
+.citacao1:nth-of-type(even) {
+    float: left;
+    margin-left: 0;
+}
+
+.citacao1:nth-of-type(odd) {
+    float: right;
+    margin-right: 0;
+}
+
+.citacao1:hover,
+.citacao1:focus {
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.3);
+    transition-delay: 0s, 1s;
+}
+
+.citacao1:nth-of-type(odd):hover,
+.citacao1:nth-of-type(odd):focus {
+    transform: scale(1.0) rotate(1deg);
+}
+
+.citacao1:nth-of-type(even):hover,
+.citacao1:nth-of-type(even):focus {
+    transform: scale(1.0) rotate(-1deg);
+}
+.citacao li {
+    display: inline-block;
+}
+.container1 {
+    position: relative;
+    top: 40px;
+    width: 155ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 0;
+    background-color:#A020F0; 
+
+}
+
+h2{
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+}
+.container2 {
+    position: relative;
+    top: 40px;
+    left: 12px;
+    width: 155ch;
+    height: 75ch;.
+    left: -40px;
+    padding: 1.5em 0;
+    background-color: #fff;
+    border-bottom: .5rem solid #A020F0;
+}
+
+figure{
+    position: relative;
+    top:160px;
+    left: 460px;
+    
+}
+
+
+
+.palavra-agil{
+    font-family: "Shadows Into Light", sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    color: #A020F0;
+    position: absolute;
+}
+.int{
+    top: 0%;
+    left: 60%;
+    
+}
+
+.pen{
+    top: 50%;
+    left: 65%;
+}
+
+.foc{
+     top: 45%;
+    left: 0%;
+}
+
+.ent{
+     top: 75%;
+    left: 10%;
+}
+
+.com{
+     top: 80%;
+    left: 60%;
+}
+
+.con{
+     top: 10%;
+    left: 10%;
+}
+h3{
+    
+}
+p{
+    font-family: 'Inconsolata', monospace;
+}
+
+.sp{
+    position: relative;
+    top: -130px;
+    left: -480px
+    
+}
+.end{
+    position: relative;
+    font-size: 20px;
+    left: -290px;
+    top: -250px;
+}
+
+.icones-sociais{
+    position: relative;
+    top: -50px;
+
+    
+}
+ 
+.icones-sociais li {
+    display: inline-block;
+}
+ 
+.icones-sociais a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.facebook {
+    background-image: url(1facebook.png);
+    
+}
+ 
+.github {
+    background-image: url(1twitter.png);
+}
+ 
+.twitter {
+     background-image: url(1instagram.png);
+}
+ 
+.linkedin {
+    background-image: url(1youtube.png);
+}
+
+.foi{
+  background-color: #444; 
+  color: #fff; 
+  position: relative;
+  top: -53px;
+  width: 155ch;
+  left: 12px;
+}
+h6{
+    font-family: 'Arial';
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+}
+
+h4{
+    font-family: 'Arial';
+    position: relative;
+    left: 210px;
+    top: -100px;
+     
+}
+
+.tituloh2{
+    font-family: 'ariel';
+    position: relative;
+    color: #fff;
+    font-size: 5em;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 3px 3px #000;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}

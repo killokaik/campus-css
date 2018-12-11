@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#A020F0; 
+}
+ 
+form {
+    
+    font-family: 'Arial';
+    font-size: 15px;
+    background-color: #A020F0;
+    max-width: 1500px;
+
+}
+ 
+h1 {
+    font-family: 'ariel';
+    position: relative;
+    color: #fff;
+    font-size: 5em;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 3px 3px #000;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+ 
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #C1CDCD;
+    color: black;
+    font-weight: bold;
+}
+ 
+.submit input {
+    background-color: #838B8B;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+ 
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+ 
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.soft{
+    position:relative;
+    top: -450px;
+    left: 600px;
+    width: 90px;
+    height: 90px;
+}
+
+aside{
+    width: 15%;
+    height: 100%;
+    top:10%; 
+    right: 40%; 
+    position: fixed;
+}
+
+.site{
+    background-color: #A020F0;
+
+    
+    
+}
+  
+
+.foi{
+  background-color: #444; 
+  color: #fff; 
+  padding: 10px;
+  position: relative;
+  top: -15px;
+}
+
+h3{
+    font-family: 'Arial';
+    font-size: 40px;
+    position: relative;
+    top: -40px;
+}
+
+h4{
+    font-family: 'Arial';
+    position: relative;
+    left: 187px;
+    top: -100px;
+    
+    
+}
+
+.sp{
+    position: relative;
+    top: -0px;
+    
+}
+.end{
+    position: relative;
+    font-size: 20px;
+    left: 150px;
+    top: -100px;
+}
+
+.icones-sociais{
+    position: relative;
+    top: -50px;
+
+    
+}
+ 
+.icones-sociais li {
+    display: inline-block;
+}
+ 
+.icones-sociais a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.facebook {
+    background-image: url(1facebook.png);
+    
+}
+ 
+.github {
+    background-image: url(1twitter.png);
+}
+ 
+.twitter {
+     background-image: url(1instagram.png);
+}
+ 
+.linkedin {
+    background-image: url(1youtube.png);
+}
+
+.container {
+    width: 112ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 0;
+}
+

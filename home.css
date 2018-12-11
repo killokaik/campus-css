@@ -1,0 +1,92 @@
+.cabecalho{
+    padding: 0;
+    margin: 0;
+   
+    
+
+}
+.site{
+    background-color: #A020F0;
+
+    
+    
+}
+.logo{
+    max-width: 250px; 
+    position: absolute; 
+	left: 10px; 
+	top: 15px;
+    
+}
+
+
+.icones-sociais{
+    position: absolute;
+    top:90px;
+    bottom: 0;
+    right: 90px;
+}
+ 
+.icones-sociais li {
+    display: inline-block;
+}
+ 
+.icones-sociais a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.facebook {
+    background-image: url(1facebook.png);
+}
+ 
+.github {
+    background-image: url(1twitter.png);
+}
+ 
+.twitter {
+     background-image: url(1instagram.png);
+}
+ 
+.linkedin {
+    background-image: url(1youtube.png);
+}
+
+.tecno{
+    max-width: 300px; 
+    position: absolute; 
+	left: 900px; 
+	top: 520px;
+    
+}
+
+.texto1 { 
+  background-color: #444; 
+  color: #fff; 
+  padding: 19px; 
+  width:900px;
+  font-size: 120%; 
+  position: relative;
+  left: 280px;
+  top: 202px;
+}
+
+.footer {
+    background-color: #494950;
+    position: relative;
+    top: 450px;
+    width: 101%;
+
+}
+.rodap1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Arial';
+    
+}
+
+
+  
+
